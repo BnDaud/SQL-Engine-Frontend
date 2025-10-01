@@ -111,7 +111,7 @@ const Sidenav = () => {
     <>
       <div
         className={`h-screen relative z-10 transition-all ease-in-out  duration-500 ${
-          showSidenav ? "flex w-1/5   flex-col" : "w-0 overflow-hidden"
+          showSidenav ? "flex w-2/7 md:w-1/5   flex-col" : "w-0 overflow-hidden"
         }   bg-black text-white/85 text-sm space-y-4`}
       >
         {modal[0].showModal ? (
