@@ -31,6 +31,16 @@ const Resultarea = () => {
     [4, "Abdullah", "Lukman", 28, "http://"],
     [3, "Ben", "Seeda", 56, "http://"],
     [4, "Abdullah", "Lukman", 28, "http://"],
+    [2, "Olayiwola", "aisha", 20, "http://"],
+    [3, "Ben", "Seeda", 56, "http://"],
+    [4, "Abdullah", "Lukman", 28, "http://"],
+    [3, "Ben", "Seeda", 56, "http://"],
+    [4, "Abdullah", "Lukman", 28, "http://"],
+    [2, "Olayiwola", "aisha", 20, "http://"],
+    [3, "Ben", "Seeda", 56, "http://"],
+    [4, "Abdullah", "Lukman", 28, "http://"],
+    [3, "Ben", "Seeda", 56, "http://"],
+    [4, "Abdullah", "Lukman", 28, "http://"],
   ]);
 
   return (

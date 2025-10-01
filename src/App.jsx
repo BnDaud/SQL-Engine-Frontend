@@ -5,7 +5,7 @@ import Sidenav from "./component/sidenave";
 
 export const globalContext = createContext();
 function App() {
-  const [showSidenav, setShowSidenav] = useState(true);
+  const [showSidenav, setShowSidenav] = useState(false);
 
   return (
     <>

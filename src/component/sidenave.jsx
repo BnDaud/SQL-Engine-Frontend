@@ -111,8 +111,8 @@ const Sidenav = () => {
     <>
       <div
         className={`h-screen relative z-10 transition-all ease-in-out  duration-500 ${
-          showSidenav ? "flex w-2/3 md:w-1/5   flex-col" : "w-0 overflow-hidden"
-        }   bg-black text-white/85 text-sm space-y-4`}
+          showSidenav ? "flex w-3/4 md:w-1/5   flex-col" : "w-0 overflow-hidden"
+        }   bg-black/60 backdrop-blur-md text-white/85 text-sm space-y-4`}
       >
         {modal[0].showModal ? (
           <Modal modal={modal[0]} toggleModal={toggleModal} />
@@ -121,7 +121,7 @@ const Sidenav = () => {
           <Modal modal={modal[1]} toggleModal={toggleModal} />
         ) : null}
         {/* Header */}
-        <div className="flex gap-4 justify-between h-12 items-center w-full">
+        <div className="flex gap-4 justify-between h-12 items-center w-11/12">
           <div className="w-7/9 flex gap-3 px-2 bg-gray_light/30 h-12 items-center justify-between rounded-ee-lg">
             <p
               className="hover:bg-text_color/70 py-1 px-3 rounded-lg cursor-pointer"
@@ -171,7 +171,7 @@ const Sidenav = () => {
         </div>
 
         {/* Private DB Card */}
-        <div className="bg-gray_light/30 rounded-r-lg h-24 px-4 space-y-2">
+        <div className="bg-gray_light/30 rounded-r-lg h-24 px-4 space-y-2 w-11/12">
           <div className="w-max mx-auto">
             <p className="text-center rounded-b-lg text-sm py-1 bg-bg_black w-44">
               Private DB +
@@ -181,7 +181,7 @@ const Sidenav = () => {
         </div>
 
         {/* Database Explorer */}
-        <div className="bg-gray_light/30 rounded-r-lg px-4 space-y-2 flex-1 overflow-y-auto scrollbar-thin">
+        <div className="bg-gray_light/30 rounded-r-lg px-4 space-y-2 flex-1 overflow-y-auto scrollbar-thin w-11/12">
           <div className="w-max mx-auto">
             <p className="text-center rounded-b-lg text-sm py-1 bg-bg_black w-44">
               Demo

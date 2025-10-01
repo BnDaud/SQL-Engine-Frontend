@@ -55,7 +55,7 @@ const Editor = () => {
             theme={oneDark}
             extensions={[sql()]}
             onChange={(value) => setContent(value)}
-            className="w-auto text-sm scrollbar-thin"
+            className="w-auto text-sm scrollbar-thin "
             /* how can i remove the  focus or border line and round it edge*/
           />
         </div>
