@@ -108,7 +108,7 @@ const Sidenav = () => {
 
   return (
     <div
-      className={`h-screen transition-all ease-in-out  duration-500 ${
+      className={`h-full transition-all ease-in-out  duration-500 ${
         showSidenav ? "flex w-1/5   flex-col" : "w-0 overflow-hidden"
       }   bg-black text-white/85 text-sm space-y-4`}
     >
